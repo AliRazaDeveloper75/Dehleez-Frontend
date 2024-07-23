@@ -15,7 +15,7 @@ const PageTwo = () => {
             </p>
           </div>
           <div className="sm:w-1/2 mt-8">
-            <img src={shose} alt="Product" className="w-full mx-auto" />
+            <img src={shose} alt="Product" className="w-[30rem] mx-auto" />
           </div>
         </main>
       </div>
