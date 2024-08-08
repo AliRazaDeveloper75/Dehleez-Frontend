@@ -9,21 +9,23 @@ import pic7 from '../../../assets/About/Group 193.jpg'
 import pic8 from '../../../assets/About/Group 191.jpg'
 import pic9 from '../../../assets/About/Group 190.jpg'
 import pic10 from '../../../assets/About/Group 189.jpg'
+import Navbar from '../../Navbar/Navbar'
 
 
 const About = () => {
   return (
     <>
-      <div className='pl-20 pr-20 pt-20'>
-        <img src={pic1} alt="" className='mb-20' />
-        <img src={pic2} alt="" className='mb-20'/>
-        <img src={pic3} alt="" className='mb-20'/>
-        <img src={pic4} alt="" className='mb-20'/>
-        <img src={pic5} alt="" className='mb-20'/>
-        <img src={pic6} alt="" className='mb-20'/>
-        <img src={pic7} alt="" className='mb-20'/>
-        <img src={pic8} alt="" className='mb-20'/>
-        <img src={pic9} alt="" className='mb-20'/>
+    <Navbar/>
+      <div className=''>
+        <img src={pic1} alt="" className='mb-20 p-5' />
+        <img src={pic2} alt="" className='mb-20 p-5'/>
+        <img src={pic3} alt="" className='mb-20 p-5'/>
+        <img src={pic4} alt="" className='mb-20 p-5'/>
+        <img src={pic5} alt="" className='mb-20 p-5'/>
+        <img src={pic6} alt="" className='mb-20 p-5'/>
+        <img src={pic7} alt="" className='mb-20 p-5'/>
+        <img src={pic8} alt="" className='mb-20 p-5'/>
+        <img src={pic9} alt="" className='mb-20 p-5'/>
         <img src={pic10} alt="" className='mb-20'/>
       </div>
     </>

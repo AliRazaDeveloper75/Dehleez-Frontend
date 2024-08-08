@@ -68,7 +68,9 @@ const Navbar = () => {
               <nav className="flex flex-col items-center space-y-4">
                 <div className="flex items-center">
                   <IoPersonOutline className="text-2xl mr-2" />
-                  <span className="text-lg cursor-pointer">Sign in</span>
+                  <Link to="/userLogin">
+                <span className="text-lg cursor-pointer">Sign in</span>
+              </Link>
                 </div>
                 <div className="flex items-center">
                   <FaRegHeart className="text-2xl mr-2" />
@@ -85,7 +87,9 @@ const Navbar = () => {
 
         {/* Desktop Header */}
         <header className="hidden sm:flex items-center justify-between p-2">
+        <Link to={"/"}>
           <img className="h-10 ml-7 " src={logo} alt="Dehleez Logo" />
+          </Link>
           <div className="flex-grow mx-8">
             <div className="relative ml-20">
               <input

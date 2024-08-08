@@ -10,6 +10,9 @@ module.exports = {
         'custom-light-blue': '#EEF6FE',
         'custom-gray': '#949494',
         'custom-White-gray': '#D9D9D9',
+        rotate: {
+          '60': '60deg',
+        }
         
 
       },
