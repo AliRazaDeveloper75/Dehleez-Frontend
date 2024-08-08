@@ -21,6 +21,7 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/Dehleez-Frontend" element={<HomePage />} />
             <Route path="/about" element={<About />} />
             {/* User Accounts URLS */}
             <Route path="/userLogin" element={<UserLoginPage />} />
